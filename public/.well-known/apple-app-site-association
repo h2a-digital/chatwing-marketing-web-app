@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "D9S8ZB95W4.com.wingman.app",
+        "paths": ["/i/*", "/welcome/*"]
+      },
+      {
+        "appID": "D9S8ZB95W4.staging.com.wingman.app",
+        "paths": ["/i/*", "/welcome/*"]
+      },
+      {
+        "appID": "D9S8ZB95W4.dev.com.wingman.app",
+        "paths": ["/i/*", "/welcome/*"]
+      }
+    ]
+  }
+}

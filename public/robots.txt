@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://wingman.h2adigital.com
+
+# Sitemaps
+Sitemap: https://wingman.h2adigital.com/sitemap.xml
