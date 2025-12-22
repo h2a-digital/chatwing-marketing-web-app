@@ -1,37 +1,32 @@
 export const gallery = [
   {
     id: 1,
-    alt: 'Shopping lists - Organize your grocery lists',
-    src: '/screenshots/lists.PNG',
+    alt: 'Wingman AI home screen overview',
+    src: '/screenshots/home.PNG',
   },
   {
     id: 2,
-    alt: 'Items view - Browse and select grocery items',
-    src: '/screenshots/items.PNG',
+    alt: 'Upload a screenshot to get suggestions',
+    src: '/screenshots/upload_screenshot.PNG',
   },
   {
     id: 3,
-    alt: 'Route mode - Optimized path through your store',
-    src: '/screenshots/route.PNG',
+    alt: 'AI analysis of a dating chat screenshot',
+    src: '/screenshots/analysis_screenshot.PNG',
   },
   {
     id: 4,
-    alt: 'Shop by Store - See all your lists organized by store.',
-    src: '/screenshots/stores.png',
+    alt: 'Paste text for instant reply ideas',
+    src: '/screenshots/input_text.PNG',
   },
   {
     id: 5,
-    alt: 'Real-Time Sharing - Real-time sharing with family or roommates.',
-    src: '/screenshots/sharing.png',
+    alt: 'Reply suggestions with selectable tones',
+    src: '/screenshots/analysis_text.PNG',
   },
   {
     id: 6,
-    alt: 'Shopping statistics - Track your shopping insights',
-    src: '/screenshots/stats.PNG',
-  },
-  {
-    id: 7,
-    alt: 'Dark Mode - Enjoy Wingman in dark mode too.',
-    src: '/screenshots/dark.png',
+    alt: 'Dark mode for late-night chats',
+    src: '/screenshots/dark.PNG',
   },
 ];

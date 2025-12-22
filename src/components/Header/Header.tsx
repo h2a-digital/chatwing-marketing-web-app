@@ -119,7 +119,7 @@ export function Header() {
             <a
               href="#download"
               onClick={(e) => scrollToSection(e, '#download')}
-              className="inline-flex items-center justify-center rounded-full bg-gray-900 px-6 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:scale-105 hover:bg-gray-800 active:scale-95"
+              className="inline-flex items-center justify-center rounded-full bg-violet-600 px-6 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:scale-105 hover:bg-violet-500 active:scale-95"
             >
               Download
             </a>
@@ -168,7 +168,7 @@ export function Header() {
               <a
                 href="#download"
                 onClick={(e) => scrollToSection(e, '#download')}
-                className="inline-flex items-center justify-center rounded-full bg-gray-900 px-6 py-3 text-base font-medium text-white transition-colors hover:bg-gray-800"
+                className="inline-flex items-center justify-center rounded-full bg-violet-600 px-6 py-3 text-base font-medium text-white transition-colors hover:bg-violet-500"
               >
                 Download
               </a>

@@ -61,7 +61,7 @@ export default function DownloadPage() {
       <main className="flex min-h-screen flex-col items-center justify-center bg-linear-to-b from-gray-50 to-white px-4 py-24 sm:px-6 lg:px-8">
         <div className="w-full max-w-md">
           <div className="mb-8 flex justify-center">
-            <div className="flex h-20 w-20 items-center justify-center rounded-2xl from-amber-400 to-amber-500 shadow-lg">
+            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-linear-to-br from-violet-500 to-indigo-500 shadow-lg">
               <Image
                 src={'/images/icon.png'}
                 alt={`${site.app.name} logo`}
@@ -74,7 +74,7 @@ export default function DownloadPage() {
           <div className="rounded-2xl border-2 border-gray-200 bg-white p-8 text-center shadow-xl">
             <h1 className="mb-3 text-2xl font-bold text-gray-900">Download {site.app.name}</h1>
             <p className="mb-8 text-base text-gray-600">
-              Couldn’t open the store automatically. Choose your platform below.
+              Couldn't open the store automatically. Choose your platform below.
             </p>
 
             <div className="flex justify-center">
@@ -84,9 +84,9 @@ export default function DownloadPage() {
             {/* Features List */}
             <div className="mt-12 grid gap-4 text-left sm:grid-cols-3">
               <div className="flex items-start gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-400/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-500/10">
                   <svg
-                    className="h-5 w-5 text-amber-500"
+                    className="h-5 w-5 text-violet-500"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth={2}
@@ -100,15 +100,15 @@ export default function DownloadPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Smart Routes</h3>
-                  <p className="text-sm text-gray-600">Optimized shopping paths</p>
+                  <h3 className="font-semibold text-gray-900">Context-Aware</h3>
+                  <p className="text-sm text-gray-600">Replies that fit the moment</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-400/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-500/10">
                   <svg
-                    className="h-5 w-5 text-amber-500"
+                    className="h-5 w-5 text-violet-500"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth={2}
@@ -122,15 +122,15 @@ export default function DownloadPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Real-time Collaboration</h3>
-                  <p className="text-sm text-gray-600">Shop together seamlessly</p>
+                  <h3 className="font-semibold text-gray-900">Tone Controls</h3>
+                  <p className="text-sm text-gray-600">Confident, playful, or flirty</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-400/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-500/10">
                   <svg
-                    className="h-5 w-5 text-amber-500"
+                    className="h-5 w-5 text-violet-500"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth={2}
@@ -144,8 +144,8 @@ export default function DownloadPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Shopping Analytics</h3>
-                  <p className="text-sm text-gray-600">Track spending & habits</p>
+                  <h3 className="font-semibold text-gray-900">Screenshot + Text</h3>
+                  <p className="text-sm text-gray-600">Upload or paste instantly</p>
                 </div>
               </div>
             </div>
@@ -158,10 +158,10 @@ export default function DownloadPage() {
   // --- DESKTOP VIEW ---
   if (!isMobile) {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-center bg-linear-to-b from-indigo-50 via-white to-cyan-50 px-4 py-24">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-linear-to-b from-violet-50 via-white to-indigo-50 px-4 py-24">
         <div className="w-full max-w-3xl">
           <div className="mb-8 flex justify-center">
-            <div className="flex h-24 w-24 items-center justify-center rounded-2xl from-amber-400 to-amber-500 shadow-lg">
+            <div className="flex h-24 w-24 items-center justify-center rounded-2xl bg-linear-to-br from-violet-500 to-indigo-500 shadow-lg">
               <Image
                 src={'/images/icon.png'}
                 alt={`${site.app.name} logo`}
@@ -176,7 +176,7 @@ export default function DownloadPage() {
               Download {site.app.name}
             </h1>
             <p className="mb-8 text-lg text-gray-600">
-              Get the smart grocery app on your mobile device
+              Get Wingman AI on your mobile device
             </p>
 
             <div className="mb-8 flex justify-center">
@@ -186,9 +186,9 @@ export default function DownloadPage() {
             {/* Features List */}
             <div className="mt-12 grid gap-4 text-left sm:grid-cols-3">
               <div className="flex items-start gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-400/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-500/10">
                   <svg
-                    className="h-5 w-5 text-amber-500"
+                    className="h-5 w-5 text-violet-500"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth={2}
@@ -202,15 +202,15 @@ export default function DownloadPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Smart Routes</h3>
-                  <p className="text-sm text-gray-600">Optimized shopping paths</p>
+                  <h3 className="font-semibold text-gray-900">Context-Aware</h3>
+                  <p className="text-sm text-gray-600">Replies that fit the moment</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-400/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-500/10">
                   <svg
-                    className="h-5 w-5 text-amber-500"
+                    className="h-5 w-5 text-violet-500"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth={2}
@@ -224,15 +224,15 @@ export default function DownloadPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Real-time Collaboration</h3>
-                  <p className="text-sm text-gray-600">Shop together seamlessly</p>
+                  <h3 className="font-semibold text-gray-900">Tone Controls</h3>
+                  <p className="text-sm text-gray-600">Confident, playful, or flirty</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-400/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-500/10">
                   <svg
-                    className="h-5 w-5 text-amber-500"
+                    className="h-5 w-5 text-violet-500"
                     fill="none"
                     stroke="currentColor"
                     strokeWidth={2}
@@ -246,8 +246,8 @@ export default function DownloadPage() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Shopping Analytics</h3>
-                  <p className="text-sm text-gray-600">Track spending & habits</p>
+                  <h3 className="font-semibold text-gray-900">Screenshot + Text</h3>
+                  <p className="text-sm text-gray-600">Upload or paste instantly</p>
                 </div>
               </div>
             </div>
@@ -262,7 +262,7 @@ export default function DownloadPage() {
     <main className="flex min-h-screen flex-col items-center justify-center bg-linear-to-b from-gray-50 to-white">
       <div className="text-center">
         <div className="mb-6 flex justify-center">
-          <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-linear-to-br from-amber-400 to-amber-500 shadow-lg">
+          <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-linear-to-br from-violet-500 to-indigo-500 shadow-lg">
             <svg
               className="h-10 w-10 animate-pulse text-white"
               fill="none"
@@ -279,7 +279,7 @@ export default function DownloadPage() {
           </div>
         </div>
 
-        <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200 border-t-amber-400"></div>
+        <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-gray-200 border-t-violet-500"></div>
         <p className="text-lg font-semibold text-gray-900">Opening store...</p>
         <p className="mt-2 text-sm text-gray-500">Please wait</p>
       </div>

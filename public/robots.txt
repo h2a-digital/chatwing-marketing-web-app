@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://wingman.h2adigital.com
+Host: https://wingman.ai
 
 # Sitemaps
-Sitemap: https://wingman.h2adigital.com/sitemap.xml
+Sitemap: https://wingman.ai/sitemap.xml

@@ -4,54 +4,61 @@ import { features } from '@/content/features';
 import { motion } from 'framer-motion';
 
 const icons = {
-  offline: (
+  upload: (
     <svg className="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth={2}
-        d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+        strokeWidth={2.5}
+        d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
       />
     </svg>
   ),
-  stores: (
+  context: (
     <svg className="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth={2}
-        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+        strokeWidth={2.5}
+        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
       />
     </svg>
   ),
-  collab: (
+  tone: (
     <svg className="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth={2}
-        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+        strokeWidth={2.5}
+        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
       />
     </svg>
   ),
-  stats: (
+  reply: (
     <svg className="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth={2}
-        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+        strokeWidth={2.5}
+        d="M13 10V3L4 14h7v7l9-11h-7z"
       />
     </svg>
   ),
 };
+
+const gradients = [
+  'from-pink-500 to-rose-500',
+  'from-purple-500 to-indigo-500',
+  'from-blue-500 to-cyan-500',
+  'from-violet-500 to-purple-500',
+];
 
 export function Features() {
   return (
     <section
       id="features"
       aria-labelledby="features-heading"
-      className="bg-linear-to-b from-gray-50 to-white py-24"
+      className="relative overflow-hidden bg-gradient-to-b from-white via-purple-50/30 to-white py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -61,15 +68,23 @@ export function Features() {
           transition={{ duration: 0.6 }}
           className="mb-20 text-center"
         >
-          <h2 id="features-heading" className="mb-4 text-4xl font-bold text-gray-900 md:text-5xl">
-            Core Features
+          <div className="mb-4 text-5xl">⚡</div>
+          <h2
+            id="features-heading"
+            className="mb-4 text-4xl font-black text-gray-900 md:text-5xl lg:text-6xl"
+          >
+            Why Wingman AI
+            <br />
+            <span className="bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+              Works Like Magic
+            </span>
           </h2>
-          <p className="mx-auto max-w-2xl text-xl text-gray-600">
-            Everything you need for smarter, faster grocery shopping
+          <p className="mx-auto max-w-2xl text-xl font-medium text-gray-600">
+            Four powerful features that make dating easier 💘
           </p>
         </motion.div>
 
-        <div className="mx-auto grid max-w-5xl gap-8 md:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl gap-6 md:grid-cols-2 lg:gap-8">
           {features.map((feature, index) => (
             <motion.article
               key={feature.icon}
@@ -77,26 +92,36 @@ export function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group"
+              className="group relative"
             >
-              <div className="relative h-full overflow-hidden rounded-2xl border-2 border-gray-200 bg-white p-8 transition-all duration-300 focus-within:ring-2 focus-within:ring-amber-400 focus-within:ring-offset-2 hover:-translate-y-1 hover:border-amber-300 hover:shadow-2xl">
-                {/* Decorative gradient background on hover */}
-                <div className="absolute inset-0 bg-amber-50/50 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+              <div className="relative h-full overflow-hidden rounded-3xl border-2 border-transparent bg-white p-8 shadow-lg transition-all duration-500 hover:-translate-y-2 hover:border-purple-200 hover:shadow-2xl">
+                {/* Gradient background on hover */}
+                <div
+                  className={`absolute inset-0 bg-gradient-to-br ${gradients[index]} opacity-0 transition-opacity duration-500 group-hover:opacity-5`}
+                />
 
-                {/* Content */}
+                {/* Animated corner accent */}
+                <motion.div
+                  className={`absolute top-0 right-0 h-32 w-32 bg-gradient-to-br ${gradients[index]} opacity-10 blur-2xl transition-all duration-500 group-hover:scale-150 group-hover:opacity-20`}
+                  animate={{ rotate: [0, 5, 0] }}
+                  transition={{ duration: 3, repeat: Infinity }}
+                />
+
                 <div className="relative">
-                  {/* Icon Container */}
-                  <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-amber-400 text-white shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
+                  {/* Icon */}
+                  <div
+                    className={`mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br ${gradients[index]} text-white shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:rotate-3`}
+                  >
                     {icons[feature.icon as keyof typeof icons]}
                   </div>
 
                   {/* Title */}
-                  <h3 className="mb-3 text-2xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-amber-500">
-                    {feature.title}
-                  </h3>
+                  <h3 className="mb-3 text-2xl font-black text-gray-900">{feature.title}</h3>
 
                   {/* Description */}
-                  <p className="text-base leading-relaxed text-gray-600">{feature.body}</p>
+                  <p className="text-base leading-relaxed font-medium text-gray-600">
+                    {feature.body}
+                  </p>
                 </div>
               </div>
             </motion.article>

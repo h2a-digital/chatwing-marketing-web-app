@@ -83,7 +83,7 @@ export function Support() {
               Get in Touch
             </h2>
             <p className="text-xl text-gray-600">
-              Have a question or feedback? We'd love to hear from you.
+              Have a question or feedback about Wingman AI? We'd love to hear from you.
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export function Support() {
                   onChange={(e) => setForm((prev) => ({ ...prev, name: e.target.value }))}
                   className={`w-full px-4 py-3 rounded-xl border ${
                     errors.name ? 'border-red-300' : 'border-gray-300'
-                  } focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-colors`}
+                  } focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-colors`}
                   placeholder="Your name"
                   disabled={form.isSubmitting}
                   required
@@ -134,7 +134,7 @@ export function Support() {
                   onChange={(e) => setForm((prev) => ({ ...prev, email: e.target.value }))}
                   className={`w-full px-4 py-3 rounded-xl border ${
                     errors.email ? 'border-red-300' : 'border-gray-300'
-                  } focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-colors`}
+                  } focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-colors`}
                   placeholder="your@email.com"
                   disabled={form.isSubmitting}
                   required
@@ -154,7 +154,7 @@ export function Support() {
                   rows={5}
                   className={`w-full px-4 py-3 rounded-xl border ${
                     errors.message ? 'border-red-300' : 'border-gray-300'
-                  } focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-colors resize-none`}
+                  } focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-colors resize-none`}
                   placeholder="Tell us how we can help..."
                   disabled={form.isSubmitting}
                   required
@@ -166,7 +166,7 @@ export function Support() {
               <button
                 type="submit"
                 disabled={form.isSubmitting}
-                className="w-full px-6 py-3 bg-gray-900 text-white font-medium rounded-xl hover:bg-gray-800 transition-all duration-300 hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2"
+                className="w-full px-6 py-3 bg-violet-600 text-white font-medium rounded-xl hover:bg-violet-500 transition-all duration-300 hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-violet-600 focus-visible:ring-offset-2"
               >
                 {form.isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
@@ -187,7 +187,7 @@ export function Support() {
               <p className="text-sm text-gray-600 mb-4">Or reach us directly at</p>
               <a
                 href={`mailto:${site.company.email}`}
-                className="text-lg text-gray-900 font-medium hover:text-gray-700 underline focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 rounded"
+                className="text-lg text-gray-900 font-medium hover:text-violet-700 underline focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2 rounded"
               >
                 {site.company.email}
               </a>
@@ -202,13 +202,13 @@ export function Support() {
                 <div className="flex flex-wrap justify-center gap-6">
                   <Link
                     href="/legal/privacy"
-                    className="text-gray-700 hover:text-gray-900 font-medium underline focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 rounded"
+                    className="text-gray-700 hover:text-violet-700 font-medium underline focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2 rounded"
                   >
                     Privacy Policy
                   </Link>
                   <Link
                     href="/legal/terms"
-                    className="text-gray-700 hover:text-gray-900 font-medium underline focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2 rounded"
+                    className="text-gray-700 hover:text-violet-700 font-medium underline focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2 rounded"
                   >
                     Terms of Service
                   </Link>

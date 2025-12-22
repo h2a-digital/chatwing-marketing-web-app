@@ -1,26 +1,26 @@
 export const how = [
   {
-    id: 'list',
+    id: 'upload',
     step: 1,
-    title: 'Build Your List',
-    body: 'Add items as you think of them throughout the week',
+    title: 'Upload or Paste',
+    body: 'Drop a screenshot or paste your chat or bio to get started',
   },
   {
-    id: 'organize',
+    id: 'analyze',
     step: 2,
-    title: 'Smart Organization',
-    body: 'Items automatically group by aisle as the app learns your store layout',
+    title: 'AI Reads the Room',
+    body: 'Wingman AI analyzes context, intent, and vibe for the best next move',
   },
   {
-    id: 'route',
+    id: 'tone',
     step: 3,
-    title: 'Optimized Route',
-    body: 'Follow the most efficient path through the store with live guidance',
+    title: 'Choose Your Tone',
+    body: 'Select confident, playful, respectful, or flirty styles',
   },
   {
-    id: 'improve',
+    id: 'send',
     step: 4,
-    title: 'Faster Every Time',
-    body: 'Track your progress and watch your shopping time decrease with each trip',
+    title: 'Send Confidently',
+    body: 'Use a reply, edit it to fit, and keep the conversation moving',
   },
 ];

@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://wingman.h2adigital.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://wingman.ai';
 
 module.exports = {
   siteUrl: SITE_URL,

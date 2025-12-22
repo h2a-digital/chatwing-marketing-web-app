@@ -3,11 +3,11 @@ export const founder = {
   title: 'Founder',
   portrait: '/images/profile-photo.jpg',
   intro:
-    "Hey 👋 I'm Hakim. I built Easly because grocery trips kept stealing time from the rest of my life.",
+    "Hey 👋 I'm Hakim. I built Wingman AI because too many good conversations stall for the wrong reasons.",
   paragraphs: [
-    "I used to walk the same store twice, backtracking for things I missed. My list was a chat thread, items weren't grouped, and I'd forget something almost every time.",
-    'Easly started as a simple idea: what if your list followed the store layout, and the app quietly learned the route you actually take? If we can cut the wandering, we can cut the stress.',
-    "Whether you're shopping for yourself or coordinating with family or a roommate, I want Easly to feel like a calm, smart list that gets you in and out, without the 'did we forget anything?' moment in the parking lot.",
+    'I watched friends overthink the perfect reply or second-guess their tone. The right message was in their head, but it never came out the way they meant.',
+    'Wingman AI started as a simple idea: what if your chats had a calm, smart co-pilot that could read the room and suggest better words?',
+    'Whether you need a playful opener, a confident follow-up, or a respectful response, I want Wingman AI to help you show up as your best self.',
   ],
   ps: 'If you have ideas or feedback, I read every message at support@h2adigital.com.',
   links: {

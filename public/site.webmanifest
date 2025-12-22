@@ -1,5 +1,5 @@
 {
-  "name": "Wingman",
+  "name": "Wingman AI",
   "short_name": "Wingman",
   "icons": [
     {
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#4a397d",
+  "theme_color": "#6d5bd0",
   "background_color": "#ffffff",
   "display": "standalone"
 }
