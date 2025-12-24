@@ -15,7 +15,6 @@ const CONTACT_TO = process.env.CONTACT_TO || '';
 
 // Supabase configuration
 const SUPABASE_URL = process.env.SUPABASE_URL || '';
-const SUPABASE_PUBLISHABLE_KEY = process.env.SUPABASE_PUBLISHABLE_KEY || '';
 
 export const env = {
   SITE_URL,
@@ -34,5 +33,4 @@ export const env = {
 
   // Supabase credentials
   SUPABASE_URL,
-  SUPABASE_PUBLISHABLE_KEY,
 } as const;

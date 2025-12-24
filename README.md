@@ -168,7 +168,6 @@ CONTACT_TO=support@h2adigital.com
 
 # Supabase Configuration (unsubscribe)
 SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_PUBLISHABLE_KEY=your_supabase_key
 ```
 
 ## 💻 Development
