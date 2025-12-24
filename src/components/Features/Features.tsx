@@ -73,7 +73,7 @@ export function Features() {
             id="features-heading"
             className="mb-4 text-4xl font-black text-gray-900 md:text-5xl lg:text-6xl"
           >
-            Why Wingman AI
+            Why ChatWing
             <br />
             <span className="bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
               Works Like Magic

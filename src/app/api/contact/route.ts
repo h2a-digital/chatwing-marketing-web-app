@@ -87,7 +87,7 @@ export async function POST(req: Request) {
       from, // shows as From: hello@h2adigital.com
       to, // goes to your inbox
       replyTo: email, // so you can reply directly
-      subject: `[Wingman Support] New message from ${name}`,
+      subject: `[ChatWing Support] New message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
       html: `<p><strong>Name:</strong> ${escapeHtml(name)}</p>
              <p><strong>Email:</strong> ${escapeHtml(email)}</p>

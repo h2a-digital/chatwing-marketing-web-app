@@ -1,7 +1,7 @@
 export const gallery = [
   {
     id: 1,
-    alt: 'Wingman AI home screen overview',
+    alt: 'ChatWing home screen overview',
     src: '/screenshots/home.PNG',
   },
   {

@@ -9,7 +9,7 @@ export const how = [
     id: 'analyze',
     step: 2,
     title: 'AI Reads the Room',
-    body: 'Wingman AI analyzes context, intent, and vibe for the best next move',
+    body: 'ChatWing analyzes context, intent, and vibe for the best next move',
   },
   {
     id: 'tone',

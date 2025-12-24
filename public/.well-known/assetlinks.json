@@ -5,7 +5,7 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.wingman.app",
+      "package_name": "com.chatwing.app",
       "sha256_cert_fingerprints": [
         "22:41:9C:0D:6C:38:A6:4E:70:D6:E7:2F:02:0C:5B:B8:D2:92:EE:12:F8:A4:F3:7D:DD:BD:CF:4B:C2:B0:56:BD"
       ]
@@ -17,7 +17,7 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "staging.com.wingman.app",
+      "package_name": "staging.com.chatwing.app",
       "sha256_cert_fingerprints": [
         "E4:AC:BA:90:5C:6A:6B:BF:56:52:1F:94:28:92:AE:EF:28:0A:6F:0E:2B:97:DF:7B:70:3E:62:A9:CB:9E:74:84"
       ]
@@ -29,7 +29,7 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "dev.com.wingman.app",
+      "package_name": "dev.com.chatwing.app",
       "sha256_cert_fingerprints": [
         "84:A2:53:EA:99:C6:D5:DC:5E:6C:06:FF:35:A5:F9:C0:7F:C8:2B:87:C7:66:8B:71:0C:11:1A:61:DB:88:8D:86"
       ]

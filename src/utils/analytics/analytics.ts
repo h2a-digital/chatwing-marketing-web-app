@@ -19,7 +19,7 @@ export default class AnalyticsService implements AnalyticsServicePort {
       capture_pageleave: true,
     });
 
-    const systemProperties = { site: 'wingman-marketing' };
+    const systemProperties = { site: 'chatwing-marketing' };
 
     posthog.register(systemProperties);
 

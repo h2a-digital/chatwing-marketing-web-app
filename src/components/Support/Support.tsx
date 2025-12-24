@@ -69,25 +69,25 @@ export function Support() {
   };
 
   return (
-    <section id="support" aria-labelledby="support-heading" className="py-24 bg-white">
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="support" aria-labelledby="support-heading" className="bg-white py-24">
+      <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.6 }}
-          className="max-w-3xl mx-auto"
+          className="mx-auto max-w-3xl"
         >
-          <div className="text-center mb-12">
-            <h2 id="support-heading" className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <div className="mb-12 text-center">
+            <h2 id="support-heading" className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">
               Get in Touch
             </h2>
             <p className="text-xl text-gray-600">
-              Have a question or feedback about Wingman AI? We'd love to hear from you.
+              Have a question or feedback about ChatWing? We&apos;d love to hear from you.
             </p>
           </div>
 
-          <div className="bg-linear-to-br from-gray-50 to-gray-100 rounded-3xl p-8 md:p-12 border border-gray-200">
+          <div className="rounded-3xl border border-gray-200 bg-linear-to-br from-gray-50 to-gray-100 p-8 md:p-12">
             {/* Contact Form */}
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Honeypot field - hidden from users */}
@@ -104,7 +104,7 @@ export function Support() {
 
               {/* Name Field */}
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="name" className="mb-2 block text-sm font-medium text-gray-700">
                   Name
                 </label>
                 <input
@@ -112,9 +112,9 @@ export function Support() {
                   id="name"
                   value={form.name}
                   onChange={(e) => setForm((prev) => ({ ...prev, name: e.target.value }))}
-                  className={`w-full px-4 py-3 rounded-xl border ${
+                  className={`w-full rounded-xl border px-4 py-3 ${
                     errors.name ? 'border-red-300' : 'border-gray-300'
-                  } focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-colors`}
+                  } transition-colors focus:border-transparent focus:ring-2 focus:ring-violet-500`}
                   placeholder="Your name"
                   disabled={form.isSubmitting}
                   required
@@ -124,7 +124,7 @@ export function Support() {
 
               {/* Email Field */}
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="email" className="mb-2 block text-sm font-medium text-gray-700">
                   Email
                 </label>
                 <input
@@ -132,9 +132,9 @@ export function Support() {
                   id="email"
                   value={form.email}
                   onChange={(e) => setForm((prev) => ({ ...prev, email: e.target.value }))}
-                  className={`w-full px-4 py-3 rounded-xl border ${
+                  className={`w-full rounded-xl border px-4 py-3 ${
                     errors.email ? 'border-red-300' : 'border-gray-300'
-                  } focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-colors`}
+                  } transition-colors focus:border-transparent focus:ring-2 focus:ring-violet-500`}
                   placeholder="your@email.com"
                   disabled={form.isSubmitting}
                   required
@@ -144,7 +144,7 @@ export function Support() {
 
               {/* Message Field */}
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="message" className="mb-2 block text-sm font-medium text-gray-700">
                   Message
                 </label>
                 <textarea
@@ -152,9 +152,9 @@ export function Support() {
                   value={form.message}
                   onChange={(e) => setForm((prev) => ({ ...prev, message: e.target.value }))}
                   rows={5}
-                  className={`w-full px-4 py-3 rounded-xl border ${
+                  className={`w-full rounded-xl border px-4 py-3 ${
                     errors.message ? 'border-red-300' : 'border-gray-300'
-                  } focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-colors resize-none`}
+                  } resize-none transition-colors focus:border-transparent focus:ring-2 focus:ring-violet-500`}
                   placeholder="Tell us how we can help..."
                   disabled={form.isSubmitting}
                   required
@@ -166,7 +166,7 @@ export function Support() {
               <button
                 type="submit"
                 disabled={form.isSubmitting}
-                className="w-full px-6 py-3 bg-violet-600 text-white font-medium rounded-xl hover:bg-violet-500 transition-all duration-300 hover:scale-[1.02] active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-violet-600 focus-visible:ring-offset-2"
+                className="w-full rounded-xl bg-violet-600 px-6 py-3 font-medium text-white transition-all duration-300 hover:scale-[1.02] hover:bg-violet-500 focus-visible:ring-2 focus-visible:ring-violet-600 focus-visible:ring-offset-2 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {form.isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
@@ -175,40 +175,40 @@ export function Support() {
                 <motion.p
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="text-center text-green-600 font-medium"
+                  className="text-center font-medium text-green-600"
                 >
-                  Message sent successfully! We'll be in touch soon.
+                  Message sent successfully! We&apos;ll be in touch soon.
                 </motion.p>
               )}
             </form>
 
             {/* Alternative Contact */}
-            <div className="mt-8 pt-8 border-t border-gray-300 text-center">
-              <p className="text-sm text-gray-600 mb-4">Or reach us directly at</p>
+            <div className="mt-8 border-t border-gray-300 pt-8 text-center">
+              <p className="mb-4 text-sm text-gray-600">Or reach us directly at</p>
               <a
                 href={`mailto:${site.company.email}`}
-                className="text-lg text-gray-900 font-medium hover:text-violet-700 underline focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2 rounded"
+                className="rounded text-lg font-medium text-gray-900 underline hover:text-violet-700 focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2"
               >
                 {site.company.email}
               </a>
             </div>
 
             {/* Legal Links */}
-            <div className="mt-8 pt-8 border-t border-gray-300">
+            <div className="mt-8 border-t border-gray-300 pt-8">
               <nav aria-label="Legal links">
-                <p className="text-sm font-medium text-gray-500 mb-4 text-center">
+                <p className="mb-4 text-center text-sm font-medium text-gray-500">
                   Legal Information
                 </p>
                 <div className="flex flex-wrap justify-center gap-6">
                   <Link
                     href="/legal/privacy"
-                    className="text-gray-700 hover:text-violet-700 font-medium underline focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2 rounded"
+                    className="rounded font-medium text-gray-700 underline hover:text-violet-700 focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2"
                   >
                     Privacy Policy
                   </Link>
                   <Link
                     href="/legal/terms"
-                    className="text-gray-700 hover:text-violet-700 font-medium underline focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2 rounded"
+                    className="rounded font-medium text-gray-700 underline hover:text-violet-700 focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2"
                   >
                     Terms of Service
                   </Link>

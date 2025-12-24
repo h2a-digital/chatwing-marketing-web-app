@@ -1,6 +1,6 @@
-# Wingman Marketing Website
+# ChatWing Marketing Website
 
-> A modern, responsive marketing website for the Wingman AI dating assistant.
+> A modern, responsive marketing website for the ChatWing dating assistant.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.0-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
@@ -20,9 +20,9 @@
 
 ## 🎯 Overview
 
-Wingman Marketing Website is a high-performance, SEO-optimized marketing site built with Next.js 16 and the App Router. It showcases the Wingman AI mobile app - an AI-powered dating assistant that analyzes chats and suggests replies in your preferred tone.
+ChatWing Marketing Website is a high-performance, SEO-optimized marketing site built with Next.js 16 and the App Router. It showcases the ChatWing mobile app - an AI-powered dating assistant that analyzes chats and suggests replies in your preferred tone.
 
-**Live Site:** [https://wingman.ai](https://wingman.ai)
+**Live Site:** [https://chatwing.h2adigital.com](https://chatwing.h2adigital.com)
 
 ## ✨ Features
 
@@ -72,7 +72,7 @@ Wingman Marketing Website is a high-performance, SEO-optimized marketing site bu
 ## 📁 Project Structure
 
 ```
-wingman-marketing-web-app/
+chatwing-marketing-web-app/
 ├── public/                      # Static assets
 │   ├── screenshots/             # App screenshots (uploads, analysis, replies)
 │   ├── site.webmanifest         # PWA manifest
@@ -120,7 +120,7 @@ wingman-marketing-web-app/
 
    ```bash
    git clone <repository-url>
-   cd wingman-marketing-web-app
+   cd chatwing-marketing-web-app
    ```
 
 2. **Install dependencies**
@@ -152,7 +152,7 @@ Create a `.env.local` file with these variables:
 
 ```env
 # Site Configuration
-NEXT_PUBLIC_SITE_URL=https://wingman.ai
+NEXT_PUBLIC_SITE_URL=https://chatwing.h2adigital.com
 
 # PostHog Analytics
 NEXT_PUBLIC_POSTHOG_KEY=your_posthog_project_key
@@ -232,9 +232,5 @@ All event names use the `EVT` constants for type safety.
 ## 📞 Support
 
 - **Email**: support@h2adigital.com
-- **Website**: [https://wingman.ai](https://wingman.ai)
-- **Company**: Wingman AI
-
----
-
-Built with ❤️ by [Wingman AI](https://wingman.ai)
+- **Website**: [https://chatwing.h2adigital.com](https://chatwing.h2adigital.com)
+- **Company**: H2A Digital LLC

@@ -175,9 +175,7 @@ export default function DownloadPage() {
             <h1 className="mb-4 text-4xl font-bold text-gray-900 md:text-5xl">
               Download {site.app.name}
             </h1>
-            <p className="mb-8 text-lg text-gray-600">
-              Get Wingman AI on your mobile device
-            </p>
+            <p className="mb-8 text-lg text-gray-600">Get ChatWing on your mobile device</p>
 
             <div className="mb-8 flex justify-center">
               <AppStoreButtons />

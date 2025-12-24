@@ -7,7 +7,7 @@ export const features = [
   {
     icon: 'context',
     title: 'Context-Aware Analysis',
-    body: 'Wingman AI understands tone, intent, and conversation momentum before suggesting replies',
+    body: 'ChatWing understands tone, intent, and conversation momentum before suggesting replies',
   },
   {
     icon: 'tone',

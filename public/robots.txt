@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://wingman.ai
+Host: https://chatwing.h2adigital.com
 
 # Sitemaps
-Sitemap: https://wingman.ai/sitemap.xml
+Sitemap: https://chatwing.h2adigital.com/sitemap.xml

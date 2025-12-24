@@ -1,4 +1,4 @@
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://wingman.ai';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://chatwing.h2adigital.com';
 
 // PostHog configuration: reads EXPO_PUBLIC_POSTHOG_* or NEXT_PUBLIC_POSTHOG_* variables
 const POSTHOG_API_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY || ''; // set your key via env vars

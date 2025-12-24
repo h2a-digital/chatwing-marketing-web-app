@@ -145,7 +145,7 @@ export function Hero() {
                 <div className="aspect-[9/19] overflow-hidden rounded-[2.5rem] bg-white">
                   <Image
                     src="/screenshots/home.PNG"
-                    alt="Wingman AI home screen showing reply suggestions"
+                    alt="ChatWing home screen showing reply suggestions"
                     width={360}
                     height={760}
                     className="h-full w-full object-cover"
