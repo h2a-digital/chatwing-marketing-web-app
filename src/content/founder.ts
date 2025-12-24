@@ -14,7 +14,7 @@ export const founder = {
     website: 'https://hakim.h2adigital.com/',
     github: 'https://github.com/poal98-hakim',
     linkedin: 'https://www.linkedin.com/in/hakim-abdelcadir-31497814a/',
-    twitter: 'https://x.com/hakim98bologna',
+    x: 'https://x.com/hakim98bologna',
   },
   signature: '— Hakim',
 };

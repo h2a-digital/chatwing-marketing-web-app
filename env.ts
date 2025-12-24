@@ -5,9 +5,6 @@ const POSTHOG_API_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY || ''; // set your k
 
 const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://eu.i.posthog.com'; // default host
 
-// App configuration
-const APP_SCHEME = process.env.NEXT_PUBLIC_APP_SCHEME || '';
-
 // SMTP configuration
 const SMTP_HOST = process.env.SMTP_HOST || '';
 const SMTP_PORT = process.env.SMTP_PORT || '';
@@ -38,7 +35,4 @@ export const env = {
   // Supabase credentials
   SUPABASE_URL,
   SUPABASE_PUBLISHABLE_KEY,
-
-  // App config
-  APP_SCHEME,
 } as const;
