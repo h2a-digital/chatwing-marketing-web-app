@@ -1,7 +1,7 @@
 export const faq = [
   {
     q: 'What does ChatWing cost?',
-    a: 'ChatWing offers a weekly subscription for $7.99 with a free trial, or an annual plan for $89.99.',
+    a: 'ChatWing offers a weekly subscription for $6.99 with a free trial, or an annual plan for $79.99.',
   },
   {
     q: 'How do I submit a chat or profile?',
