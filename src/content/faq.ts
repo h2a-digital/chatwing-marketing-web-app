@@ -9,7 +9,7 @@ export const faq = [
   },
   {
     q: 'Does ChatWing save my screenshots?',
-    a: 'No. Screenshots are used only to generate suggestions and are not stored.',
+    a: 'No. Screenshots are processed temporarily to generate suggestions and are deleted immediately after.',
   },
   {
     q: 'Can I choose different tones?',
