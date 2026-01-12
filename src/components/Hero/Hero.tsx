@@ -113,7 +113,7 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="mt-8 flex flex-wrap items-center justify-center gap-6 lg:justify-start"
             >
-              <div className="flex items-center gap-2 text-sm font-bold text-gray-600">
+              {/* <div className="flex items-center gap-2 text-sm font-bold text-gray-600">
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
                     <span key={i} className="text-yellow-400">
@@ -122,10 +122,14 @@ export function Hero() {
                   ))}
                 </div>
                 <span>10M+ Messages</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2 text-sm font-bold text-gray-600">
                 <span className="text-2xl">🔥</span>
                 <span>2.5× More Dates</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm font-bold text-gray-600">
+                <span className="text-2xl">💯</span>
+                <span className="font-semibold">AI-Powered</span>
               </div>
             </motion.div>
           </motion.div>

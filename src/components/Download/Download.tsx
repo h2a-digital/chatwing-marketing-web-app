@@ -80,10 +80,10 @@ export function Download() {
             transition={{ delay: 0.6 }}
             className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-gray-500"
           >
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <span className="text-2xl">⭐</span>
               <span className="font-semibold">10M+ Messages</span>
-            </div>
+            </div> */}
             <div className="flex items-center gap-2">
               <span className="text-2xl">🔥</span>
               <span className="font-semibold">2.5× More Dates</span>
