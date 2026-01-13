@@ -28,7 +28,7 @@ ChatWing Marketing Website is a high-performance, SEO-optimized marketing site b
 
 ### Marketing Features
 
-- 🎨 **Modern Design**: Clean, professional design inspired by Cooklist with rounded cards and gradients
+- 🎨 **Modern Design**: Clean, professional design with rounded cards and gradients
 - 📱 **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
 - ♿ **Accessible**: WCAG 2.1 AA compliant with semantic HTML and ARIA labels
 - 🎭 **Smooth Animations**: Framer Motion animations with reduced motion support
