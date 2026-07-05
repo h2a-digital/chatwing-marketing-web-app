@@ -5,6 +5,11 @@ export const site = {
   store: {
     iosUrl: 'https://apps.apple.com/app/id6756897327',
     // androidUrl: 'https://play.google.com/store/apps/details?id=TBD',
+    campaigns: {
+      q8R2x: 'https://apps.apple.com/app/apple-store/id6756897327?pt=128321398&ct=tiktok_bio&mt=8',
+      n6F4w:
+        'https://apps.apple.com/app/apple-store/id6756897327?pt=128321398&ct=instagram_bio&mt=8',
+    },
   },
   social: { x: '', instagram: '', github: '' },
 };
